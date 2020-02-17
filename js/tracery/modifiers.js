@@ -92,7 +92,7 @@ define([], function() {'use strict';
 
                 // oxen, boxen, foxen
                 case 'x':
-                    return s.slice(0, s.length - 1) + "en";
+                    return s.slice(0, s.length) + "en";
                 case 'z':
                     return s.slice(0, s.length - 1) + "es";
                 case 'h':
